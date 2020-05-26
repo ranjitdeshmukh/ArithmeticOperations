@@ -25,5 +25,8 @@ do
 
 done
 
-sort -nr <(printf "%s\n" "${arr[@]}")
+#Sorting the result in Descending order 
+sort -nr <(printf "%s\n" "${arr[@]})"
 
+#Sorting the result in Ascending order 
+sort -n <(printf "%s\n" "${arr[@]})"
