@@ -25,3 +25,5 @@ do
 
 done
 
+sort -nr <(printf "%s\n" "${arr[@]}")
+
