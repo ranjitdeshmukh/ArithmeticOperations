@@ -8,3 +8,5 @@ read -p "Enter the value c: " c
 result_first=$((a+$((b*c))))
 
 result_second=$(($((b*c))+a))
+
+result_third=$((a+$((b/c))))
